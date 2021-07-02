@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+\\leftrightarrow
+]]></content>
+   <tabTrigger>lr</tabTrigger> 
+   <scope>text.tex</scope>
+</snippet>

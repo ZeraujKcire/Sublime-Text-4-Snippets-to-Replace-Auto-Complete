@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+\\begin{itemize}\n\t\\item $0\n\\end{itemize}\n
+]]></content>
+   <tabTrigger>bit</tabTrigger> 
+   <scope>text.tex</scope>
+</snippet>

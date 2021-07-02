@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+\\usepackage 
+]]></content>
+   <tabTrigger>use</tabTrigger> 
+   <scope>text.tex</scope>
+</snippet>

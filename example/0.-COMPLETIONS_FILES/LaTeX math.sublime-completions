@@ -1,0 +1,108 @@
+{
+        "scope": "text.tex.latex string.other.math, text.tex.latex meta.environment.math",
+
+        "completions":
+        [
+                { "trigger": "a", "contents": "\\alpha " },
+                { "trigger": "b", "contents": "\\beta " },
+                { "trigger": "g", "contents": "\\gamma " },
+                { "trigger": "d", "contents": "\\delta " },
+                { "trigger": "\\delta", "contents": "\\partial " },
+                //{ "trigger": "partial", "contents": "delta" },  # can't have trigger as it conflicts with p -> \pi
+		{ "trigger": "e", "contents": "\\varepsilon " },
+		{ "trigger": "z", "contents": "\\zeta "},
+		{ "trigger": "h", "contents": "\\eta " },
+                { "trigger": "th", "contents": "\\theta " },
+                { "trigger": "\\theta", "contents": "\\vartheta " },
+                { "trigger": "\\vartheta", "contents": "\\theta " },
+                { "trigger": "k", "contents": "\\kappa " },
+                { "trigger": "l", "contents": "\\lambda " },
+                { "trigger": "m", "contents": "\\mu " },
+                { "trigger": "nu", "contents": "\\nu " },
+                { "trigger": "x", "contents": "\\xi " },
+                { "trigger": "p", "contents": "\\pi " },
+                { "trigger": "r", "contents": "\\rho " },
+                { "trigger": "s", "contents": "\\sigma " },
+                { "trigger": "t", "contents": "\\tau " },
+                { "trigger": "u", "contents": "\\upsilon " },        
+                { "trigger": "f", "contents": "\\phi " },
+                { "trigger": "\\phi", "contents": "\\varphi " }, 
+                { "trigger": "\\varphi", "contents": "\\phi " },
+                { "trigger": "c", "contents": "\\chi " },
+                { "trigger": "y", "contents": "\\psi " },
+                { "trigger": "w", "contents": "\\omega " },
+                { "trigger": "v", "contents": "\\digamma "},
+                { "trigger": "G", "contents": "\\Gamma " },
+                { "trigger": "D", "contents": "\\Delta " },
+		{ "trigger": "T", "contents": "\\Theta " },
+                { "trigger": "L", "contents": "\\Lambda " },
+                { "trigger": "X", "contents": "\\Xi " },
+                { "trigger": "P", "contents": "\\Pi " },
+                { "trigger": "S", "contents": "\\Sigma " },
+                { "trigger": "F", "contents": "\\Phi " },
+                { "trigger": "Y", "contents": "\\Psi " },
+                { "trigger": "W", "contents": "\\Omega " },
+
+                { "trigger": "va", "contents": "\\varnothing " },
+                { "trigger": "V", "contents": "\\forall " },
+                { "trigger": "E", "contents": "\\exists " },
+                { "trigger": "sm", "contents": "\\setminus " },
+                { "trigger": "ldo", "contents": "\\;\\ldots\\; " },
+                { "trigger": "cd", "contents": "\\cdot " },
+                { "trigger": "cdo", "contents": "\\;\\cdot\\; " },
+
+                { "trigger": "cu", "contents": "\\cup "},
+                { "trigger": "ca", "contents": "\\cap "},
+                { "trigger": "bcu", "contents": "\\bigcup "},
+                { "trigger": "bca", "contents": "\\bigcap "},
+
+	        
+        	{ "trigger": "int", "contents": "\\int_{$1}^{$0}"},
+        	{ "trigger": "inf", "contents": "\\infty "},
+
+
+                { "trigger": "qd", "contents": "\\quad"},
+                { "trigger": "qqd", "contents": "\\qquad"},
+
+		{ "trigger": "pro", "contents": "\\dis\\prod_{${1:i=1}}^{${0:n}}"},
+
+		{ "trigger": "lar", "contents": "\\leftarrow"},
+		{ "trigger": "leftarrow", "contents": "leftarrow"},
+		{ "trigger": "longleftarrow", "contents": "longleftarrow"},
+		{ "trigger": "Lar", "contents": "\\Leftarrow"},
+		{ "trigger": "Leftarrow", "contents": "Leftarrow"},
+		{ "trigger": "Longleftarrow", "contents": "Longleftarrow"},
+		{ "trigger": "rar", "contents": "\\rightarrow"},
+		{ "trigger": "rightarrow", "contents": "rightarrow"},
+		{ "trigger": "longrightarrow", "contents": "longrightarrow"},
+		{ "trigger": "Rar", "contents": "\\Rightarrow"},
+		{ "trigger": "Rightarrow", "contents": "Rightarrow"},
+		{ "trigger": "Longrightarrow", "contents": "Longrightarrow"},
+		{ "trigger": "lr", "contents": "\\leftrightarrow"},
+		{ "trigger": "Lr", "contents": "\\Leftrightarrow"},
+		{ "trigger": "iff", "contents": "\\Leftrightarrow"},
+		{ "trigger": "leftrightarrow", "contents": "leftrightarrow"},
+		{ "trigger": "Leftrightarrow", "contents": "Leftrightarrow"},
+		{ "trigger": "longleftrightarrow", "contents": "longleftrightarrow"}, 
+		{ "trigger": "Longleftrightarrow", "contents": "Longleftrightarrow"}, 
+                { "trigger": "up", "contents": "\\uparrow"},
+		{ "trigger": "do", "contents": "\\downarrow"},
+
+                { "trigger": "it", "contents": "\\mathit{$0}"},
+                { "trigger": "bf", "contents": "\\mathbf{$0}"},
+                { "trigger": "bb", "contents": "\\mathbb{$0}"},
+                { "trigger": "rm", "contents": "\\mathrm{$0}"},
+                { "trigger": "sf", "contents": "\\mathsf{$0}"},
+                { "trigger": "cal", "contents": "mathcal{$0}"},
+
+                { "trigger": "lp", "contents": "\\left( $0 \\right) "},
+                { "trigger": "lb", "contents": "\\left[ $0 \\right] "},
+                { "trigger": "lbr", "contents": "\\left\\\\{ $0 \\right\\\\}"},
+                { "trigger": "fr", "contents": "\\frac"},
+                { "trigger": "fra", "contents": "\\frac{$1}{$0}"},
+                { "trigger": "sta", "contents": "\\stackrel{$1}{$0}"},
+
+                { "trigger": "sp", "contents": "\\begin{split}\n$0\n\\end{split}\n"}
+
+        ]
+}

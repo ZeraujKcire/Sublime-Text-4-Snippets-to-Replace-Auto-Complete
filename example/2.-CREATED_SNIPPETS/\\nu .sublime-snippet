@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+\\nu 
+]]></content>
+   <tabTrigger>v</tabTrigger> 
+   <scope>text.tex</scope>
+</snippet>

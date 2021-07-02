@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+\\quad
+]]></content>
+   <tabTrigger>qd</tabTrigger> 
+   <scope>text.tex</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+\\Delta 
+]]></content>
+   <tabTrigger>D</tabTrigger> 
+   <scope>text.tex</scope>
+</snippet>

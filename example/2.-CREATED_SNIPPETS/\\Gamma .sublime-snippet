@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+\\Gamma 
+]]></content>
+   <tabTrigger>G</tabTrigger> 
+   <scope>text.tex</scope>
+</snippet>

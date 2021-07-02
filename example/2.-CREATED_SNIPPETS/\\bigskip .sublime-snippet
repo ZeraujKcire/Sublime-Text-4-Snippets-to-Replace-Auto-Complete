@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+\\bigskip 
+]]></content>
+   <tabTrigger>bs</tabTrigger> 
+   <scope>text.tex</scope>
+</snippet>

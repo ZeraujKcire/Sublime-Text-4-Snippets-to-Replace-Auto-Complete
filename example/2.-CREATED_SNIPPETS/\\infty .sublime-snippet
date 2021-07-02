@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+\\infty 
+]]></content>
+   <tabTrigger>inf</tabTrigger> 
+   <scope>text.tex</scope>
+</snippet>

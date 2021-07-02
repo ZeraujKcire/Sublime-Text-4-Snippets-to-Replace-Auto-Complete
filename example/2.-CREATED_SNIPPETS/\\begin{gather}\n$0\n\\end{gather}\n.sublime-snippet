@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+\\begin{gather}\n$0\n\\end{gather}\n
+]]></content>
+   <tabTrigger>bgan</tabTrigger> 
+   <scope>text.tex</scope>
+</snippet>

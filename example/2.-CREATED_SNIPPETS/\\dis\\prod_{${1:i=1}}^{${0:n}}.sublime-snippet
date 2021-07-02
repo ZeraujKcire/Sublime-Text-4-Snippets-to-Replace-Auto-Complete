@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+\\dis\\prod_{${1:i=1}}^{${0:n}}
+]]></content>
+   <tabTrigger>pro</tabTrigger> 
+   <scope>text.tex</scope>
+</snippet>

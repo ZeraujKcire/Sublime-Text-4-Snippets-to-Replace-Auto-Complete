@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+\\[\n$0\n\\]
+]]></content>
+   <tabTrigger>beq</tabTrigger> 
+   <scope>text.tex</scope>
+</snippet>
