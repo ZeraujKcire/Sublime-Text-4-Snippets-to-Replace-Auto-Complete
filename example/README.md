@@ -1,18 +1,24 @@
 # Example.
 
----
 
 
 
 
 
-### Description.
+
+## Description.
+
+
 
 *This is a sketch of the steps to create* `.sublime-snippet`*'s, from* `.sublime-autocompletions` *file.*
 
 
 
+
+
+
 ### Requirements.
+
 
 1. `PackageResourceView`. (It can be installed by `ctrl+shift+p`, typing `install`, and then `PackageResourceView`, `Enter`).
 2. `LaTeXTools` sublime package. (as above, it can be installed by `ctrl+shift+p`, `install package`, and type `LaTeXTools`).
@@ -22,9 +28,13 @@
 
 
 
+
+
+
 ### Steps to reproduce.
 
-Download entire repository folder from [here](), and open Sublime Text.
+
+Download entire repository folder from [here](https://github.com/ZeraujKcire/Sublime-Text-4-Snippets-to-Replace-Auto-Complete/archive/refs/heads/main.zip), and open Sublime Text.
 
 2. `ctrl+shift+p`, `Enter`.
 3. `PRV:Open`, `Enter`.
@@ -74,7 +84,11 @@ Any of this steps can be done with other sublime packages.
 
 
 
+
+
+
 ### Completions Used in this example.
+
 
 In the folder `0.-COMPLETIONS_FILES`, are located the files that `LaTeXTools` use for auto-completions, and it were obtained in the step 4.
 
@@ -84,7 +98,10 @@ In the folder `0.-COMPLETIONS_FILES`, are located the files that `LaTeXTools` us
 
 
 
+
+
 ### Triggers and Contents in this example.
+
 
 As a guide for how to make a bunch of snippets, in  directory `1.-TRIGGERS_AND_CONTENTS`, are located the files `triggers.txt`, and `contents.txt`, and contains the 3 `.sublime-completions` in order. 
 
@@ -94,7 +111,11 @@ As a guide for how to make a bunch of snippets, in  directory `1.-TRIGGERS_AND_C
 
 
 
+
+
+
 ### Snippets generated in this example.
+
 
 In `2.-SNIPPETS_GENERATED`, are all the `.sublime-snippet`'s that were made by the program.
 
@@ -111,6 +132,9 @@ Here are the firsts snippets that were generated.
 | baan    | \begin{alignat}... |
 | bal     | \begin{align*}...  |
 | ...     | ...                |
+
+
+
 
 
 
