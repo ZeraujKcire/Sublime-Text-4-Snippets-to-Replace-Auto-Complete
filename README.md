@@ -1,12 +1,16 @@
 # SublimeText4, Snippets to Replace Auto-Complete.
 
----
 
 
 
 
 
-### Description.
+
+
+
+## Description.
+
+
 
 *This is a repository that contains a temporary solution, to adapt the* `.sublime-completions` *files, of the annoying auto-complete behavior of Sublime Text 4, to similar auto-complete of Sublime Text 3 using snippets.*
 
@@ -14,7 +18,12 @@
 
 
 
-### Warning.
+
+
+
+## Warning.
+
+
 
 - This is a temporary solution for desperate people, who the painful behavior of the auto-complete of Sublime Text 4, doesn't let it work properly. 
 - This is a large and simple coded solution, because I have poor skills on python and scripts languages.
@@ -24,7 +33,12 @@
 
 
 
-### Requirements.
+
+
+
+## Requirements.
+
+
 
 1. Package Resource Viewer (install it with `ctrl+shift+p`, and on `install` prompt, type `PackageResourceViewer`).
 2. Some language package `.sublime-completions` that contains auto-complete commands.
@@ -34,7 +48,12 @@
 
 
 
-### Usage.
+
+
+
+## Usage.
+
+
 
 1. Identify the language(s) that you want to generate the snippets.
 2. In Sublime Text type `ctrl+shift+p` (`cmd+shift+p` on mac) to open the command prompt.
@@ -76,16 +95,25 @@ With these steps, should be generated `.sublime-snippet` files that will substit
 
 
 
-### Example
-
-1. Download the entire folder of this repository from [here]().
-2. Go to [example]() folder to see this program applied to LaTeX language.
 
 
 
+## Example
 
 
-### Back to sublime text default configuration.
+1. Download the entire folder of this repository from [here](https://github.com/ZeraujKcire/Sublime-Text-4-Snippets-to-Replace-Auto-Complete/archive/refs/heads/main.zip).
+2. Go to [example](https://github.com/ZeraujKcire/Sublime-Text-4-Snippets-to-Replace-Auto-Complete/tree/main/example) folder to see this program applied to LaTeX language.
+
+
+
+
+
+
+
+
+## Back to sublime text default configuration.
+
+
 
 1. Delete the files that were created.
 2. Restore the file `Preferences.sublime-settings`.
