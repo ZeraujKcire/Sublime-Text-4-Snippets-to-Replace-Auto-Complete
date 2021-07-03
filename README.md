@@ -59,11 +59,11 @@
 2. In Sublime Text type `ctrl+shift+p` (`cmd+shift+p` on mac) to open the command prompt.
 3. Type `PackageResourceViewer: Open Resource`, `Enter`.
 4. Type the package name (or language name) that contains sublime files to work. (In the example below, I use it on `LaTeXTools` package).
-5. Open the `.sublime-completions` file that you are interested in.
+5. Open the `.sublime-completions` file that you are interested in. (They should look like the files on `example/0.-COMPLETION_FILES` folder on [this]() repo).
 6. On the file, type `ctrl+f`, `alt+r` (to able regex on search), and paste this regex pattern: `(?<="trigger":\s\").*(?=\",)`.
-7. Type `alt+Enter` to get all the matches, and copy the selected text, on a new file called `triggers.txt`.
-8. Repeat steps 6. and 7., but with the regex pattern: `(?<="contents":\s\").*(?=\s?\"\s?\}?,?)`, and copy the selected text in a new file called `contents.txt`. 
-9. Download `SNIPPETS_GENERATOR.cpp` from this repo, and put it on the folder that contains both, `triggers.txt`, and `contents.txt`.
+7. Type `alt+Enter` to get all the matches, and copy the selected text, on a new file called `triggers.txt`. (It should look like as the [example/1.-TRIGGERS_AND_CONTENTS/triggers.txt](https://github.com/ZeraujKcire/Sublime-Text-4-Snippets-to-Replace-Auto-Complete/blob/main/example/1.-TRIGGERS_AND_CONTENTS/triggers.txt) file from this repo).
+8. Repeat steps 6. and 7., but with the regex pattern: `(?<="contents":\s\").*(?=\s?\"\s?\}?,?)`, and copy the selected text in a new file called `contents.txt`. (Again, it should look like [this](https://github.com/ZeraujKcire/Sublime-Text-4-Snippets-to-Replace-Auto-Complete/blob/main/example/1.-TRIGGERS_AND_CONTENTS/contents.txt) example).
+9. Download `SNIPPETS_GENERATOR.cpp` from this repo, and put it on the folder that contains both, `triggers.txt`, and `contents.txt`. 
 10. Open and run `SNIPPETS_GENERATOR.cpp`. (If you're Linux user, you have to uncomment the line `176`, and comment the line `177`).
 11. `INSERT THE EXTENSION OF THE FILES :` Type `txt`.
 12. `INSERT THE ACTION :` Type `5`.
