@@ -34,8 +34,7 @@
 ### Steps to reproduce.
 
 
-Download entire repository folder from [here](https://github.com/ZeraujKcire/Sublime-Text-4-Snippets-to-Replace-Auto-Complete/archive/refs/heads/main.zip), and open Sublime Text.
-
+1. Download entire repository folder from [here](https://github.com/ZeraujKcire/Sublime-Text-4-Snippets-to-Replace-Auto-Complete/archive/refs/heads/main.zip), and open Sublime Text.
 2. `ctrl+shift+p`, `Enter`.
 3. `PRV:Open`, `Enter`.
 4. Package names.
