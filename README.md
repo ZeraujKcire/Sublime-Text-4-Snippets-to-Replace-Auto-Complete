@@ -27,7 +27,7 @@
 
 - This is a temporary solution for desperate people, who the painful behavior of the auto-complete of Sublime Text 4, doesn't let it work properly. 
 - This is a large and simple coded solution, because I have poor skills on python and scripts languages.
-- This steps can be undone (by deleting the files we're going to create, and restoring the `Preferences.sublime-settings` file) in case a new version of Sublime Text gets back the function `insert_best_completions`, and that is the point of [this discussion](https://forum.sublimetext.com/t/st3-style-autocomplete-in-st4/57774/32).
+- This steps can be undone (by deleting the files we're going to create, and restoring the `Preferences.sublime-settings` file) in case a new version of Sublime Text gets back the function `insert_best_completions`, and that is the point of [this discussion](https://forum.sublimetext.com/t/st3-style-autocomplete-in-st4/57774).
 
 
 
