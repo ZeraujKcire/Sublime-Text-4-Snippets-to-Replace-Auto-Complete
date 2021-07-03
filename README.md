@@ -68,7 +68,7 @@
 11. `INSERT THE EXTENSION OF THE FILES :` Type `txt`.
 12. `INSERT THE ACTION :` Type `5`.
 13. `SCOPE OF THE SNIPPETS : `
-    1. Type the language scope that snippets will be applied. [Here](https://gist.github.com/J2TEAM/a54bafb082f90c0f20c9/revisions) is a list with the scopes of all languages.
+    1. Type the language scope that snippets will be applied. [Here](https://gist.github.com/J2TEAM/a54bafb082f90c0f20c9) is a list with the scopes of all languages.
     2. On the example below, the scope we need is `text.tex`.
 14. `FILENAME WITH THE TRIGGERS :` Type `triggers`.
 15. `FILENAME WITH THE CONTENTS :` Type `contents`.
