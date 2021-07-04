@@ -59,7 +59,7 @@
 2. In Sublime Text type `ctrl+shift+p` (`cmd+shift+p` on mac) to open the command prompt.
 3. Type `PackageResourceViewer: Open Resource`, `Enter`.
 4. Type the package name (or language name) that contains sublime files to work. (In the example below, I use it on `LaTeXTools` package).
-5. Open the `.sublime-completions` file that you are interested in. (They should look like the files on `example/0.-COMPLETION_FILES` folder on [this]() repo).
+5. Open the `.sublime-completions` file that you are interested in. (They should look like the files on [example/0.-COMPLETION_FILES](https://github.com/ZeraujKcire/Sublime-Text-4-Snippets-to-Replace-Auto-Complete/tree/main/example/0.-COMPLETIONS_FILES) folder).
 6. On the file, type `ctrl+f`, `alt+r` (to able regex on search), and paste this regex pattern: `(?<="trigger":\s\").*(?=\",)`.
 7. Type `alt+Enter` to get all the matches, and copy the selected text, on a new file called `triggers.txt`. (It should look like as the [example/1.-TRIGGERS_AND_CONTENTS/triggers.txt](https://github.com/ZeraujKcire/Sublime-Text-4-Snippets-to-Replace-Auto-Complete/blob/main/example/1.-TRIGGERS_AND_CONTENTS/triggers.txt) file from this repo).
 8. Repeat steps 6. and 7., but with the regex pattern: `(?<="contents":\s\").*(?=\s?\"\s?\}?,?)`, and copy the selected text in a new file called `contents.txt`. (Again, it should look like [example/1.-TRIGGERS_AND_CONTENTS/contents.txt](https://github.com/ZeraujKcire/Sublime-Text-4-Snippets-to-Replace-Auto-Complete/blob/main/example/1.-TRIGGERS_AND_CONTENTS/contents.txt) example).
